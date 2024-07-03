@@ -1,5 +1,5 @@
 import json
-import openai
+from openai import AsyncOpenAI
 import pandas as pd
 import matplotlib.pyplot as plt
 import streamlit as st
